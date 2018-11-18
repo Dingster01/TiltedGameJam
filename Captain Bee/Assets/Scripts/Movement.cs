@@ -10,6 +10,8 @@ public class Movement : MonoBehaviour
 
     public GameObject player;
 
+    public GameObject explosion;
+
     Rigidbody2D rb;
 
     private Vector2 direction;
@@ -41,5 +43,11 @@ public class Movement : MonoBehaviour
             direction = Vector2.right;
 
 
+    }
+
+    private void OnDestroy()
+    {
+        GameObject e = Instantiate(explosion);
+        e.transform.position = this.transform.position;
     }
 }

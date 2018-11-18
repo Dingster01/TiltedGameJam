@@ -23,7 +23,7 @@ public class TimeCounter : MonoBehaviour {
         string seconds = (m % 60).ToString("f2");
 
         counter.text = hours + ":" + minutes + ":" + seconds;
-        if (Input.GetButtonDown("Right"))
+        if (Input.GetButtonDown("right"))
         {
             startTime = Time.time;
         }

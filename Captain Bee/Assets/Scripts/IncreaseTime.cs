@@ -13,6 +13,8 @@ public class IncreaseTime : MonoBehaviour
         if (collision.tag == "Player")
         {
             GameObject.Find("GameplayController").GetComponent<Timer>().time += increaseTime;
+
+            
         }
     }
 }

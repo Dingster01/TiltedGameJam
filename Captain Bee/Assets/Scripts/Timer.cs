@@ -12,11 +12,14 @@ public class Timer : MonoBehaviour
 
     private GameObject player;
 
+    private float t;
+
+    private bool killed = false;
 
     public float time = 10f;
 
     [SerializeField]
-    private float decay = 0.3f;
+    private float decay = 0.7f;
 
     [SerializeField]
     private string levelName = "Sidescrolling";
@@ -37,14 +40,22 @@ public class Timer : MonoBehaviour
     {
         if (time > 0)
         {
+            if(time > 16)
+            {
+                time = 16;
+            }
             time -= decay * Time.deltaTime;
             slider.value = time;
         }
-        else
+        else if (!killed)
         {
             playerDie.Play();
+            killed = true;
             Destroy(player);
-            SceneManager.LoadScene(levelName);
+            t = Time.time;
         }
+
+        if(killed == true && Time.time - t >= 1.0)
+            SceneManager.LoadScene(levelName);
     }
 }

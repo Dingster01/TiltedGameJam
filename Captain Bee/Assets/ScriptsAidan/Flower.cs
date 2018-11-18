@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Flower : MonoBehaviour
 {
-
+    public AudioSource collectSound;
     //public float speed = -0.5f;
 
     public float height = 0.0f;
@@ -21,6 +21,7 @@ public class Flower : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        collectSound = GetComponent<AudioSource>();
         r = GetComponent<Rigidbody2D>();
         r.position = new Vector2(r.position.x, height);
         //r.velocity = new Vector2(speed, 0);
@@ -51,6 +52,7 @@ public class Flower : MonoBehaviour
         {
             GameObject.Find("GameplayController").GetComponent<Timer>().time += increaseTime;
             Explode();
+            collectSound.Play();
         }
     }
 }
