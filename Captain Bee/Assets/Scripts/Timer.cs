@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
+    public AudioSource playerDie;
 
     private Slider slider;
 
@@ -23,6 +24,7 @@ public class Timer : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        playerDie = GetComponent<AudioSource>();
         player = GameObject.Find("Player");
         slider = GameObject.Find("Slider").GetComponent<Slider>();
         slider.minValue = 0f;
@@ -40,6 +42,7 @@ public class Timer : MonoBehaviour
         }
         else
         {
+            playerDie.Play();
             Destroy(player);
             SceneManager.LoadScene(levelName);
         }

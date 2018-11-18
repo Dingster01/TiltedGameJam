@@ -15,6 +15,9 @@ public class Flower : MonoBehaviour
 
     private bool exploded = false;
 
+    [SerializeField]
+    private float increaseTime = 5;
+
     // Use this for initialization
     void Start()
     {
@@ -39,6 +42,15 @@ public class Flower : MonoBehaviour
         {
             exploded = true;
             ps.Play();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            GameObject.Find("GameplayController").GetComponent<Timer>().time += increaseTime;
+            Explode();
         }
     }
 }

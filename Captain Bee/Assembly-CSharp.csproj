@@ -61,14 +61,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Flower.cs" />
-    <Compile Include="Assets\Scripts\GrassGenerator.cs" />
     <Compile Include="Assets\Scripts\IncreaseTime.cs" />
-    <Compile Include="Assets\Scripts\MoveGrass.cs" />
+    <Compile Include="Assets\Scripts\InitialGrass.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\SceneTransition2.cs" />
+    <Compile Include="Assets\Scripts\TimeCounter.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\ScriptsAidan\Flower.cs" />
+    <Compile Include="Assets\ScriptsAidan\GrassGenerator.cs" />
+    <Compile Include="Assets\ScriptsAidan\MoveGrass.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/GitHub Projects Folder/Tilted/Captain Bee/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

@@ -51,12 +51,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ca08c8bd7765449a5fbfda12daaf00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grass: {fileID: 1664425486125760, guid: ee2f14b8e03d86642bfda46d3545da7a, type: 2}
+  grass: {fileID: 1664425486125760, guid: dd75fbf4dabffcb4f9ba7d890cf2fbdf, type: 2}
   flowers:
-  - {fileID: 1587959408663492, guid: a5159bdb7270e134e946dbcbc6dd5a27, type: 2}
-  - {fileID: 1511833087168232, guid: 955a15272b134394cb8354c835bbae32, type: 2}
-  - {fileID: 1662896061682114, guid: 37ce5a7c987f23f4cb38073b295ade95, type: 2}
+  - {fileID: 1587959408663492, guid: b7fa00e599c687748bcacbbf05015605, type: 2}
+  - {fileID: 1511833087168232, guid: 0cda4b87fb4bff54984b02f780d50e10, type: 2}
+  - {fileID: 1662896061682114, guid: 3928b28660111ab46ada2eb162215084, type: 2}
   chance: 0.33
   maxflowerdelay: 3
   delay: 0.5
-  speed: -6
+  speed: -5
