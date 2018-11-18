@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61499801301298074}
   - component: {fileID: 199545134962615598}
   - component: {fileID: 198557071632414346}
+  - component: {fileID: 114785911398987650}
   m_Layer: 0
   m_Name: Small Flower
   m_TagString: Untagged
@@ -102,6 +103,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   height: -3.36
+--- !u!114 &114785911398987650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587959408663492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0c37bfb05f31f4ea520fdd2aa71028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  increaseTime: 5
 --- !u!198 &198557071632414346
 ParticleSystem:
   m_ObjectHideFlags: 1

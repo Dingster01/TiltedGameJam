@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61274120901339286}
   - component: {fileID: 199491442658272794}
   - component: {fileID: 198463568834243986}
+  - component: {fileID: 114525640354457942}
   m_Layer: 0
   m_Name: Tall Flower
   m_TagString: Untagged
@@ -90,6 +91,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &114525640354457942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662896061682114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0c37bfb05f31f4ea520fdd2aa71028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  increaseTime: 5
 --- !u!114 &114901857280007422
 MonoBehaviour:
   m_ObjectHideFlags: 1

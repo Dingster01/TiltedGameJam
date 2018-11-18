@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61898449430734536}
   - component: {fileID: 199155642545042874}
   - component: {fileID: 198707367246051214}
+  - component: {fileID: 114023923565544784}
   m_Layer: 0
   m_Name: Medium Flower
   m_TagString: Untagged
@@ -90,6 +91,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &114023923565544784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511833087168232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0c37bfb05f31f4ea520fdd2aa71028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  increaseTime: 5
 --- !u!114 &114763325334257696
 MonoBehaviour:
   m_ObjectHideFlags: 1
