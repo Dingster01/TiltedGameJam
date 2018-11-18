@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\MoveGrass.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
+    <Compile Include="Assets\Scripts\SceneTransition2.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/GitHub Projects Folder/Tilted/Captain Bee/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
