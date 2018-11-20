@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\IncreaseTime.cs" />
     <Compile Include="Assets\Scripts\InitialGrass.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\SceneTransition2.cs" />
     <Compile Include="Assets\Scripts\TimeCounter.cs" />
